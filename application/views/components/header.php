@@ -6,7 +6,29 @@
     <title>Profil Sekolah</title>
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <style>
+        .header, .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+        .academic-info {
+            background-color: #f1f1f1;
+            padding: 40px 0;
+        }
+        .academic-info h3 {
+            margin-bottom: 30px;
+        }
+        .academic-info .card {
+            transition: transform 0.2s;
+        }
+        .academic-info .card:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
 <header class="bg-light py-2 border-bottom">
@@ -41,7 +63,40 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="profilDropdown">
                             <li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
-                            <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="#">Tentang Sekolah</a></li>
+                            <li><a class="dropdown-item" href="#">Guru</a></li>
+                            <li><a class="dropdown-item" href="#">Staff dan Tata Usaha</a></li>
+                            <li><a class="dropdown-item" href="#">Tim Pengembang Sekolah</a></li>
+                        
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Galeri
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="profilDropdown">
+                            <li><a class="dropdown-item" href="#">Video</a></li>
+                            <li><a class="dropdown-item" href="#">Foto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Akademik
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="profilDropdown">
+                            <li><a class="dropdown-item" href="#">Prestasi</a></li>
+                            <li><a class="dropdown-item" href="#">Pengumuman</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sarana Prasana
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="profilDropdown">
+                            <li><a class="dropdown-item" href="#">Mushola</a></li>
+                            <li><a class="dropdown-item" href="#">Lab Komputer</a></li>
+                            <li><a class="dropdown-item" href="#">Perpustakaan</a></li>
+                            <li><a class="dropdown-item" href="#">Lab IPA</a></li>
                         </ul>
                     </li>
                     <!-- Tambahkan menu lainnya sesuai kebutuhan -->
