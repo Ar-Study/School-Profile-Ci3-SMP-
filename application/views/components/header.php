@@ -52,17 +52,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="<?php echo base_url('./') ?>">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Berita</a>
+                        <a class="nav-link" href="<?php echo base_url('./welcome/berita') ?>">Berita</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="profilDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Profil
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="profilDropdown">
-                            <li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
+                            <li><a class="dropdown-item" href="<?= base_url('welcome/visimisi'); ?>">Visi dan Misi</a></li>
                             <li><a class="dropdown-item" href="#">Tentang Sekolah</a></li>
                             <li><a class="dropdown-item" href="#">Guru</a></li>
                             <li><a class="dropdown-item" href="#">Staff dan Tata Usaha</a></li>

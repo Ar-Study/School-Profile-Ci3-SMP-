@@ -26,4 +26,18 @@ class Welcome extends CI_Controller {
 		$this->load->view('components/footer');
 
 	}
+
+	public function berita() {
+		$this->load->helper('url');
+		$this->load->view('components/header');
+		$this->load->view('berita');
+		$this->load->view('components/footer');
+	}
+
+	public function visimisi() {
+		$this->load->helper('url');
+		$this->load->view('components/header');
+		$this->load->view('visimisi');
+		$this->load->view('components/footer');
+	}
 }
